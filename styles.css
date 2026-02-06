@@ -1,1 +1,35 @@
-/*  your css code here. If applicable */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+    padding: 24px;
+    background: #ffffff;
+}
+
+table {
+    border-collapse: collapse;
+    background: #ffff4d;
+    margin: 0 auto;
+}
+
+caption {
+    caption-side: top;
+    font-weight: 700;
+    font-size: 28px;
+    padding-bottom: 8px;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid #000000;
+}
+
+th,
+td {
+    padding: 6px 10px;
+    font-size: 20px;
+}
